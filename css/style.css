@@ -15,6 +15,15 @@ header{
     grid-area: banner;
     height: 220px;
 }
+main{
+    background-color: gray;
+    grid-area: main;
+}
+main h1, main p{
+    text-align: center;
+    font-family: sans-serif;
+
+}
 nav{
     align-items: center;
     background-color: #d3bbde;
@@ -37,4 +46,19 @@ nav div span{
 }
 nav img{
     width: 35px;
+}
+section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-area: section;
+}
+section .funcionarios{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section .funcionarios div img{
+    width: 100px;
 }
