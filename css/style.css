@@ -9,6 +9,12 @@ body{
     margin: 0;
 
 }
+header{
+    background-image:url(../images/Siri-Cascudo-Lanches.png);
+    background-size: cover;
+    grid-area: banner;
+    height: 220px;
+}
 nav{
     align-items: center;
     background-color: #d3bbde;
